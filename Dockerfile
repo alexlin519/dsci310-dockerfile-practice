@@ -1,3 +1,5 @@
 FROM quay.io/jupyter/r-notebook:2023-11-19 
-#RUN conda install --yes pandas=1.3 numpy=1.20
+RUN conda install --y \
+      pandas=2.1.1  \
+      numpy=1.26.0
 
